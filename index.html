@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+        body{
+            font-family: 'Roboto', sans-serif;
+            font-weight: bold;
+        }
+        table, td, th {
+            border: 1px solid;
+            padding: 0.3rem;
+        }
+        td{
+            height: 1rem;
+            width: 7rem;
+        }
+        table{
+            border-collapse: collapse;
+        }
+        .subtitle{
+            text-align: left;
+        }
+        .nilai {
+            text-align: right;
+        }
+    </style>
+</head>
+<body>
+    <table>
+       <thead>
+           <tr>
+               <th colspan="3">NAMA</th>
+               <th colspan="3">NILAI</th>
+           </tr>
+           <tr class="subtitle">
+               <th>NAMA AWAL</th>
+               <th>NAMA TENGAH</th>
+               <th>GELAR</th>
+               <th>ALGORITMA</th>
+               <th>WEB</th>
+           </tr>
+       </thead>
+        <tbody>
+            <tr>
+                <td>Andri</td>
+                <td>Budiansyah</td>
+                <td></td>
+                <td class="nilai">90</td>
+                <td class="nilai">80</td>
+            </tr>
+            <tr>
+                <td>Budi</td>
+                <td>Raharjo</td>
+                <td>S.Kom</td>
+                <td class="nilai">70</td>
+                <td class="nilai">90</td>
+            </tr>
+            <tr>
+                <td>Cika</td>
+                <td>Talia</td>
+                <td></td>
+                <td class="nilai">80</td>
+                <td class="nilai">70</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td colspan="3" style="text-align: center">TotaL</td>
+                <td class="nilai">240</td>
+                <td class="nilai">240</td>
+            </tr>
+            <tr>
+                <td colspan="5" style="text-align: center">Data Nilai Perkuliahan UNSIA</td>
+            </tr>
+        </tfoot>
+    </table>
+</body>
+</html>
